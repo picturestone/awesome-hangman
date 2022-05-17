@@ -7,6 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/picturestone/awesome-hangman.git"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/picturestone/awesome-hangman/issues"
   },
-  "homepage": "https://github.com/picturestone/awesome-hangman#readme"
+  "homepage": "https://github.com/picturestone/awesome-hangman#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.4"
+  }
 }
