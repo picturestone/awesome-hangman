@@ -2,7 +2,7 @@ import {guess, status, submit} from "./api.mjs";
 
 console.log('hello world');
 
-const occuranaceArray = [
+const occurrenceArray = [
     'E', 'S', 'I', 'A', 'R', 'N', 'T', 'O', 'L', 'C', 'D', 'U', 'G', 'P', 'M', 'H', 'B', 'Y', 'F', 'V', 'K', 'W', 'Z', 'X', 'J', 'Q'
 ];
 
