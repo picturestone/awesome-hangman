@@ -1,4 +1,4 @@
-import status from "./api.mjs";
+import {status} from "./api.mjs";
 
 console.log('hello world');
 

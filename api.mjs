@@ -6,4 +6,4 @@ export const status = async () => {
     return await fetch('https://trayport-hangman.azurewebsites.net/api')
 }
 
-export default status;
+// export default status;
