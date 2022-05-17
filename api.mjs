@@ -1,9 +1,11 @@
 import fetch from 'node-fetch'
 
-export const status = async () => {
+export const status = () => {
 // const Bearer: <token>
     const token = "RJHUJS";
-    return await fetch('https://trayport-hangman.azurewebsites.net/api')
+   return fetch('https://trayport-hangman.azurewebsites.net/api/status', {
+        headers: {Authorization: 'Bearer RJHUJS'}
+    })
 }
 
 // export default status;

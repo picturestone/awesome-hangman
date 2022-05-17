@@ -7,4 +7,13 @@ const occuranaceArray = [
 ];
 
 
-console.log(await status())
+const main = async () => {
+    try {
+        const response = await status()
+        console.log(response.status);
+        console.log(await response.json())
+    } catch (e) {
+        console.error(e)
+    }
+}
+main().then(() => {})
